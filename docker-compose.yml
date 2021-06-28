@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+    postgres_web:
+        container_name: postgres_web
+        image: postgres:13.1
+        restart: always
+        ports:
+            - 5432:5432
+        env_file:
+          - .env
