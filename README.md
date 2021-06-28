@@ -3,3 +3,4 @@
 3. pip install -r web/requirements.txt
 3. cd web && python3 run.py init
 4. python3 run.py start
+5. http://localhost:8888/writes/1
